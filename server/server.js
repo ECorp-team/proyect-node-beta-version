@@ -9,11 +9,11 @@ dotenv.config()
 const PORT = process.env.PORT || 3000
 const app = express()
 
-app.use(express.static(path.join(cwd() + "./views/")))
+app.use(express.static(path.join(cwd(), "./views/")))
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(cwd() + './views/index.html'))
+    res.sendFile(path.join(cwd(), './views/index.html'))
 })
 
 app.listen(PORT, () => {

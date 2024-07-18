@@ -41,3 +41,8 @@ Para comenzar a editar el codigo del repo
 ```
 
     
+## Deployment
+
+El Deploy se hace automatico una vez se suban cambios a la rama main. El enlace:
+
+ - [Ecorp](https://ecorp.onrender.com)
